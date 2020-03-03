@@ -1,0 +1,3 @@
+class BreweriesCLI::class
+  
+end 
