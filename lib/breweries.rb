@@ -4,6 +4,9 @@
 require "breweries/version"
 require "breweries/cli"
 
+#prydependency
+require "pry" 
+
 module Breweries
   class Error < StandardError; end
   # Your code goes here...
