@@ -20,7 +20,7 @@ class Breweries::CLI
   end  
   
   def quit 
-    puts "Goodbye. Drink responsibly and enjoy."
+    puts "Goodbye. Drink responsibly and enjoy." 
   end 
   
 end
