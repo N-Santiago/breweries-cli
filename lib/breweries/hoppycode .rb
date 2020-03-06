@@ -2,7 +2,7 @@ class Breweries::HoppyCode
   
   @@all = []
   
-  def initialize()
+  def initialize(hash)
     
   end 
   

@@ -3,10 +3,11 @@
 
 require "breweries/version"
 require "breweries/cli"
+require "breweries/api"
 
 #dependencies
 require "pry"
-require "httparty"
+require "unirest" 
 
 module Breweries
   class Error < StandardError; end

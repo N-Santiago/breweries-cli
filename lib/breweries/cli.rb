@@ -2,8 +2,7 @@ class Breweries::CLI
   
   def start 
     puts "Hello there!"
-    puts "Looking for the best craft beers in town, please wait." 
-    display_info
+    @data = Breweries::API.get_breweries 
   end 
   
   def display_info 
