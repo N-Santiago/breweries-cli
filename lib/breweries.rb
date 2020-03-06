@@ -4,7 +4,6 @@
 require "breweries/version"
 require "breweries/cli"
 
-
 module Breweries
   class Error < StandardError; end
   # Your code goes here...

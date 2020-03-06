@@ -1,4 +1,4 @@
-class BreweriesCLI::CLI
+class Breweries::CLI
   
   def start 
     puts "Hello there!"
