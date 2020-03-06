@@ -4,8 +4,9 @@
 require "breweries/version"
 require "breweries/cli"
 
-#prydependency
-require "pry" 
+#dependencies
+require "pry"
+require "httparty"
 
 module Breweries
   class Error < StandardError; end
