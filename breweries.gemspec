@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{"Flatiron CLI Project."}
   spec.description   = %q{"Use API to get a list of breweries in specific cities."}
   spec.homepage      = "https://github.com/N-Santiago/breweries-cli"
-  spec.license       = "MIT"
+  spec.license       = "MIT" 
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
