@@ -7,6 +7,5 @@ class Breweries::API
       city: @breweries_hash["city"]
     }
      binding.pry 
-  end 
   
 end 

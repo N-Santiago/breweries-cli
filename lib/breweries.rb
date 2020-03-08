@@ -5,7 +5,6 @@ require "breweries/version"
 require "breweries/cli"
 require "breweries/api"
 
-
 #dependencies
 require "pry"
 require "httparty" 

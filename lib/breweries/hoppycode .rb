@@ -1,16 +1,16 @@
 class Breweries::HoppyCode 
   
-  @@all = []
+  @@all = {}
   
   def initialize(hash)
     save 
   end 
   
-  def all
-
+  def save
   end 
   
-  def save
+  def all
+    @@all
   end 
   
 end  
