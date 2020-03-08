@@ -1,17 +1,16 @@
 class Breweries::HoppyCode 
+   attr_accessor :name, :city
   
-  @@all = {}
-  
-  def initialize(hash)
-    save 
-  end 
-  
-  def save
-  end 
-  
-  def all
+  @@all = []
+ 
+  def initialize
+    @name = name 
+    @@all << self
+  end
+ 
+  def self.all
     @@all
-  end 
+  end
   
 end  
 
