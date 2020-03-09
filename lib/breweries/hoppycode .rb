@@ -1,12 +1,10 @@
 class Breweries::HoppyCode
-  attr_accessor :city, :name 
   
   @@all = []
  
-  def initialize
-    @city = city
-    @name = name 
-    @@all << self
+  def initialize(hash)
+    
+    binding.pry 
   end
  
   def self.all

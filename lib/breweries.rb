@@ -4,6 +4,7 @@
 require "breweries/version"
 require "breweries/cli"
 require "breweries/api"
+require "breweries/hoppycode"
 
 #dependencies
 require "pry"
