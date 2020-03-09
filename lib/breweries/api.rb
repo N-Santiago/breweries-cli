@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Breweries::API
   
   def self.get_breweries
