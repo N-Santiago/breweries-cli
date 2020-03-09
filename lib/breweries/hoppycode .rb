@@ -1,10 +1,10 @@
 class Breweries::HoppyCode
-  attr_accessor :name, :city
-
+  attr_accessor :city, :name 
   
   @@all = []
  
   def initialize
+    @city = city
     @name = name 
     @@all << self
   end
