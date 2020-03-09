@@ -1,5 +1,6 @@
-class Breweries::HoppyCode 
-   
+class Breweries::HoppyCode
+  attr_accessor :name, :city
+
   
   @@all = []
  
