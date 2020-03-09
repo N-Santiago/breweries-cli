@@ -4,7 +4,7 @@ class Breweries::HoppyCode
  
   def initialize(hash)
     
-    binding.pry  
+    binding.pry 
   end
  
   def self.all
