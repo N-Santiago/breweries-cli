@@ -2,7 +2,9 @@ class Breweries::CLI
   
   def start 
     puts "Hello there!"
-    @data = Breweries::API.get_breweries 
+    @data = Breweries::API.get_breweries
+    @objects = Breweries::HoppyCode.all 
+    binding.pry 
   end 
   
   def display_info 
