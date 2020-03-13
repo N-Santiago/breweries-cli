@@ -16,6 +16,10 @@ class Breweries::HoppyCode
   def save
     @@all << []
     binding.pry 
+<<<<<<< HEAD
   end   
+=======
+  end  
+>>>>>>> e8170f54660be55a0ad2211ee42c479c1491835d
   
 end  
