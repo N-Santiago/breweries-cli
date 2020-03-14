@@ -4,6 +4,7 @@ class Breweries::CLI
     puts "Hello there!"
     @data = Breweries::API.get_breweries
     @objects = Breweries::HoppyCode.all 
+  end 
   
   def display_info 
     puts "Please enter location:"
@@ -20,6 +21,6 @@ class Breweries::CLI
   
   def quit 
     puts "Goodbye. Drink responsibly and enjoy." 
-  end 
+  end  
   
 end
