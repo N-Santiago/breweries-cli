@@ -7,6 +7,13 @@ class Breweries::CLI
     input = gets.strip.downcase
     @data = Breweries::API.get_breweries(input)
     @objects = Breweries::HoppyCode.all 
+    display_info
+  end 
+  
+  def display_info 
+    puts ""
+  else
+    quit
   end 
   
   def quit 
