@@ -14,7 +14,9 @@ class Breweries::CLI
     puts ""
   else
     quit
-  end  
+  end 
+end 
+
   
   def quit 
     puts "Goodbye. Drink responsibly and enjoy." 
