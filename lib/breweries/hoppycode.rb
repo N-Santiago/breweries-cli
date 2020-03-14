@@ -1,6 +1,6 @@
 class Breweries::HoppyCode
   
-  attr_accessor :name, :city 
+  attr_accessor :name, :city, :phone, :website_url 
   
   @@all = []
  
