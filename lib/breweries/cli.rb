@@ -1,23 +1,13 @@
 class Breweries::CLI
   
   def start 
-    puts "Hello there!"
-    @data = Breweries::API.get_breweries
+    puts "Hello!"
+    puts "------"
+    puts "Please enter your location"
+    input = gets.strip.downcase
+    @data = Breweries::API.get_breweries(input)
     @objects = Breweries::HoppyCode.all 
   end 
-  
-  def display_info 
-    puts "Please enter location:"
-    input = gets.strip.downcase
-    
-    if input == "city"
-      puts "************You'll love the following spots!************"
-      puts "List of Breweries"
-      display_info
-    else 
-      quit 
-    end 
-  end  
   
   def quit 
     puts "Goodbye. Drink responsibly and enjoy." 
