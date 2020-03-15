@@ -44,7 +44,7 @@ class Breweries::CLI
         display_info
       end 
       end 
- 
+        
   def quit 
     puts "Goodbye. Drink responsibly and enjoy." 
   end   
