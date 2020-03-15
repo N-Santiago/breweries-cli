@@ -14,7 +14,6 @@ class Breweries::CLI
   else 
     display_info 
   end
-  end 
   
   def display_info 
     puts "You'll love the following spots!"
@@ -36,7 +35,7 @@ class Breweries::CLI
           start
           end
         end
- 
+        
   def quit 
     puts "Goodbye. Drink responsibly and enjoy." 
   end   

@@ -1,7 +1,7 @@
 class Breweries::HoppyCode
-  
+
   attr_accessor :name, :street, :city, :phone, :website_url 
-  
+
   @@all = []
  
   def initialize(hash)
