@@ -14,6 +14,7 @@ class Breweries::CLI
   else 
     display_info 
   end
+end 
   
   def display_info 
     puts "You'll love the following spots!"
