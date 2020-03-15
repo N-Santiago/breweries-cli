@@ -2,6 +2,7 @@ class Breweries::API
   
   def self.get_breweries(input)
     @breweries_hash = HTTParty.get("https://api.openbrewerydb.org/breweries?by_city=#{input}")
+    return if @breweries_hash.empty? #empty array handle 
     breweries_obj = {
       name: @breweries_hash[1]["name"],
       street: @breweries_hash[3]["street"],

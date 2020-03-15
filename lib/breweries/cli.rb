@@ -7,9 +7,9 @@ class Breweries::CLI
     input = gets.strip.downcase
     @data = Breweries::API.get_breweries(input)
     @objects = Breweries::HoppyCode.all 
-    if input.length < 1 
-      puts "Sorry!!" 
-      puts "```````"
+    if input.length < 1 || @objects.empty? #empty array handle 
+      puts "Sorry, I didn't found any tap!!" 
+      puts "*******************************"
       start
   else 
     display_info 
@@ -25,7 +25,7 @@ class Breweries::CLI
     puts  "Type Quit to end. Type Menu to try another location."
         input = gets.strip.downcase
         if(input.to_i > 0)
-        @brewery = @objects[input.to_i - 1]
+        @brewery = @objects[input.to_i - 1] 
             puts "name: #{@brewery.name}"
             puts "street: #{@brewery.street}"
             puts "city: #{@brewery.city}"
