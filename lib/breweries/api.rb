@@ -10,6 +10,7 @@ class Breweries::API
       website_url: @breweries_hash[11]["website_url"]
     }
     Breweries::HoppyCode.new(breweries_obj)
-  end 
+  end
+ 
    
 end 

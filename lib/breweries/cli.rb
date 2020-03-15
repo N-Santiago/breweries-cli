@@ -21,23 +21,20 @@ class Breweries::CLI
     puts "********************************"
     @objects.each.with_index(1) {|brewery, index| puts "#{index}. #{brewery.name}"}  
     puts  "Please make a selection by index number for more information:"
-    puts  "**********************************"
-    puts  "Type Quit to end."
-    puts  "**********************************"
-    puts  "Type Menu to try another location."
-    puts  "**********************************"
+    puts  "****************************************************"
+    puts  "Type Quit to end. Type Menu to try another location."
         input = gets.strip.downcase
         if(input.to_i > 0)
-            @brewery = @objects[input.to_i - 1]
+        @brewery = @objects[input.to_i - 1]
             puts "name: #{@brewery.name}"
             puts "street: #{@brewery.street}"
             puts "city: #{@brewery.city}"
             puts "phone: #{@brewery.phone}"
             puts "website_url: #{@brewery.website_url}"
             display_info
-          elsif (input == "quit")
+        elsif (input == "quit")
             quit 
-          elsif (input == "menu")
+        elsif (input == "menu")
           start
       else 
       puts "Ooops, please try again to get more info:"
