@@ -15,5 +15,4 @@ class Breweries::API
   end
 end 
  
-   
 end  
