@@ -17,5 +17,5 @@ class Breweries::HoppyCode
     @@all << self 
   end   
 
-  end  
+end  
 
