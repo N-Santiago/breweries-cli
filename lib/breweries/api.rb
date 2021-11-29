@@ -12,7 +12,7 @@ class Breweries::API
       website_url: brewery["website_url"] 
     }
     Breweries::HoppyCode.new(breweries_obj)
-  end
-end 
+    end
+  end 
  
 end  
