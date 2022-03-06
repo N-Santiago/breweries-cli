@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Look for the local breweries in town by writing down your location, and choose the one you would like to know more about. 
 
 ## Development
 
