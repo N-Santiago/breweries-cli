@@ -1,6 +1,8 @@
-# Breweries
+# README
 
-Hello! This gem is made with travelers and brewery lovers in mind. In this program, you'll be able to find the best breweries of any specific city you visit. Enjoy and drink responsibly. 
+# Breweries :beer:
+
+This Ruby Gem <img src="https://img.icons8.com/color/16/000000/ruby-programming-language.png"/> is made with travelers and brewery lovers in mind. In this app, you'll be able to find the best breweries of any specific city you visit. :cityscape: Enjoy and drink responsibly. :beers:
 
 ## Installation
 
@@ -20,7 +22,13 @@ Or install it yourself as:
 
 ## Usage
 
+Execute the program by running `bin/breweriesCLI` in your terminal. 
+
 Look for the local breweries in town by writing down your location, and choose the one you would like to know more about. 
+
+## Video Demo
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/CsefB-1K8KE/0.jpg)](https://www.youtube.com/watch?v=CsefB-1K8KE)
 
 ## Development
 
@@ -39,3 +47,7 @@ The gem is available as open source under the terms of the [MIT License](https:/
 ## Code of Conduct
 
 Everyone interacting in the Breweries project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/'munificent-format-5297'/breweries/blob/master/CODE_OF_CONDUCT.md).
+
+© 2020 Breweries CLI
+
+<a href="https://icons8.com/icon/22189/ruby-programming-language">Ruby Programming Language icon by Icons8</a>
